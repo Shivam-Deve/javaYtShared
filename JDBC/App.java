@@ -2,6 +2,8 @@ import java.sql.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        // Class.forName("com.mysql.jdbc.Driver"); // load and register driver | not needed in current versions
+        
         // connect to database
         String url = "jdbc:mysql://localhost:3306/jdbc";
         String userName = "root";
